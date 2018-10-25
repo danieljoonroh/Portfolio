@@ -232,12 +232,13 @@ main#home h1 {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
 .projects img {
   width: 100%;
-  border: 3px black solid;
+  height: auto;
+  border: 3px lightgrey solid;
 
 }
 .projects img:hover {
